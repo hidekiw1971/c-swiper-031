@@ -1,0 +1,19 @@
+@use "global" as *;
+
+.xxx-ul {
+    @include mq(md) {
+        // display: flex;
+        display: -webkit-box;
+        flex-wrap: wrap;
+        width: 100%;
+        // 
+    }
+}
+
+.xxx-li {
+    @include mq(md) {
+        display: block;
+        flex-basis: 25%;
+        // 
+    }
+}
